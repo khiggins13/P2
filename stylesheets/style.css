@@ -1,0 +1,75 @@
+body {
+  background: #f9e933;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+
+.important {    font-size: larger;   /* makes it a little larger than the parent */ }
+
+
+.onePointTwo {    font-size: 1.2em;    /* sets it to 1.2 times the base size */ }
+
+p{
+	
+	margin: 10px;
+	padding: 20px;
+ 
+}
+
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  padding: 25px 0 25px 0;
+  background: white;
+  overflow: auto;
+  border-bottom: 1px solid #ddd;
+
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+main {
+  background: white;
+  overflow: auto;
+ 
+}
+
+main .left {
+  float: left;
+  width: 570px;
+}
+
+main .right {
+  float: right;
+  width: 285px;
+}
+
+main .q{
+	font-weight: bold;
+}
+
+main .a{
+	font-style: italic;
+}
+
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
